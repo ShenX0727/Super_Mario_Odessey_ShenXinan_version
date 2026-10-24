@@ -1,0 +1,15 @@
+.DS_Store
+
+# Xcode 构建产物 / 本机用户状态
+xcode-derived-data/
+xcuserdata/
+*.xcuserstate
+
+# 运行/构建日志
+logs/
+profile/
+
+# 从 ROM 解包出的大型数据（体积过大，不入库）
+extract/
+patched_v262144/
+shader/

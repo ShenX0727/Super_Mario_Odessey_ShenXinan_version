@@ -1,0 +1,101 @@
+{
+ "game": "0100000000010000",
+ "settings": [
+  {
+   "env": "DM_OPMODE",
+   "kind": "choice",
+   "label": "Console mode",
+   "note": "",
+   "default": "1",
+   "options": [
+    [
+     "1",
+     "Docked"
+    ],
+    [
+     "0",
+     "Handheld"
+    ]
+   ]
+  },
+  {
+   "env": "DM_LANG",
+   "kind": "choice",
+   "label": "Game language",
+   "note": "",
+   "default": "en-US",
+   "options": [
+    [
+     "en-US",
+     "American English"
+    ],
+    [
+     "en-GB",
+     "British English"
+    ],
+    [
+     "ja",
+     "Japanese"
+    ],
+    [
+     "fr",
+     "French"
+    ],
+    [
+     "de",
+     "German"
+    ],
+    [
+     "es-419",
+     "Latin American Spanish"
+    ],
+    [
+     "es",
+     "Spanish"
+    ],
+    [
+     "it",
+     "Italian"
+    ],
+    [
+     "nl",
+     "Dutch"
+    ],
+    [
+     "fr-CA",
+     "Canadian French"
+    ],
+    [
+     "ru",
+     "Russian"
+    ],
+    [
+     "ko",
+     "Korean"
+    ],
+    [
+     "zh-Hant",
+     "Traditional Chinese"
+    ],
+    [
+     "zh-Hans",
+     "Simplified Chinese"
+    ]
+   ]
+  },
+  {
+   "env": "DM_SHOW_FPS",
+   "kind": "toggle",
+   "label": "Frame-rate counter",
+   "note": "",
+   "default": "1"
+  },
+  {
+   "env": "DM_METAL_HUD",
+   "kind": "toggle",
+   "label": "Performance HUD",
+   "note": "",
+   "default": "0"
+  }
+ ]
+}
